@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav layout */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+/* nav-logo */
+.nav-logo img {
+  width: 100px;
+  height: 40px;
+}
+/* nav list */
+.nav-list ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-list li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
+
+.hero-container {
+  text-align: center;
+  background-image: url(/assets/banner.jpg);
+  height: 500px;
+}
+
+.hero-h1 {
+  color: white;
+  padding-top: 80px;
+  font-size: 50px;
+}
+.hero-p {
+  color: rgb(182, 175, 175);
+  padding-top: 18px;
+}
+.hero-btn {
+  margin-top: 200px;
+}
+
+.card-h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
