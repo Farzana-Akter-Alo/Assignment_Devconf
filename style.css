@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 12px;
 }
 /* nav-logo */
 .nav-logo img {
@@ -43,7 +44,7 @@
 
 .hero-container {
   text-align: center;
-  background-image: url(/assets/banner.jpg);
+  background-image: url(./assets/banner.jpg);
   height: 500px;
 }
 
@@ -60,11 +61,12 @@
   margin-top: 200px;
 }
 
-.card-h2 {
+.card-h2,
+.plan-h2 {
   margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .card-container {
@@ -77,20 +79,39 @@
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.card{
+.card {
   border: 1px solid rgb(235, 231, 231);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.card-content{
+.card-content {
   padding: 20px;
 }
-.card-content p{
+.card-content p {
   padding: 5px 0;
 }
-.card-p1{
+.card-p1 {
   color: rgb(0, 140, 255);
 }
-.card-p2{
+.card-p2 {
   color: rgb(163, 160, 160);
+}
+.plan-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 16px;
+   justify-content: center;
+}
+.plan {
+  border: 1px solid rgb(235, 231, 231);
+  border-radius: 10px;
+  padding: 25px;
+}
+.plan-list {
+  color: rgb(83, 83, 83);
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.plan-list li::marker{
+  color: rgb(0, 140, 255);
 }
