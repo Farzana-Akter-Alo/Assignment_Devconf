@@ -100,7 +100,7 @@
   display: grid;
   grid-template-columns: repeat(3, 300px);
   gap: 16px;
-   justify-content: center;
+  justify-content: center;
 }
 .plan {
   border: 1px solid rgb(235, 231, 231);
@@ -112,6 +112,42 @@
   padding-top: 16px;
   padding-left: 16px;
 }
-.plan-list li::marker{
+.plan-list li::marker {
   color: rgb(0, 140, 255);
+}
+/* footer style */
+.footer-container {
+  margin-top: 100px;
+  padding: 30px 8%;
+  background-color: #111;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 35px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #008cff;
 }
